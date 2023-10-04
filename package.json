@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-degenerate-cdf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Degenerate distribution cumulative distribution function (CDF).",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-assert-is-nan": "^0.1.0",
-    "@stdlib/utils-constant-function": "^0.1.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
+    "@stdlib/math-base-assert-is-nan": "^0.1.1",
+    "@stdlib/utils-constant-function": "^0.1.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.1.0",
