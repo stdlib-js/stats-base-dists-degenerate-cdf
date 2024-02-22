@@ -65,13 +65,13 @@ where `µ` is the constant value of the distribution.
 ## Usage
 
 ```javascript
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-cdf@deno/mod.js';
+import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-cdf@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-cdf@deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-cdf@v0.2.1-deno/mod.js';
 ```
 
 #### cdf( x, mu )
@@ -116,7 +116,7 @@ y = mycdf( 8.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-cdf@deno/mod.js';
+import cdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-cdf@v0.2.1-deno/mod.js';
 
 var mu;
 var x;
