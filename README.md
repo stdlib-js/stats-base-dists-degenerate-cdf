@@ -133,10 +133,10 @@ var cdf = require( '@stdlib/stats-base-dists-degenerate-cdf' );
 var opts = {
     'dtype': 'float64'
 };
-var x = discreteUniform( 10, 0.0, 10.0, opts );
-var mu = discreteUniform( 10, 0.0, 10.0, opts );
+var x = discreteUniform( 10, 0, 10, opts );
+var mu = discreteUniform( 10, 0, 10, opts );
 
-logEachMap( 'x: %0.4f, µ: %0.4f, F(x;µ): %0.4f', x, mu, cdf );
+logEachMap( 'x: %d, µ: %d, F(x;µ): %0.4f', x, mu, cdf );
 ```
 
 </section>
@@ -273,7 +273,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -299,8 +299,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
