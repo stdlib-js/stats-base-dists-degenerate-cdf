@@ -47,11 +47,10 @@
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.2.2",
     "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
     "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
-    "@stdlib/random-base-uniform": "^0.2.1",
+    "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/utils-try-require": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
